@@ -12,6 +12,10 @@ Simple todo list that allows you to add, edit, or delete a task.
 - CSS3
 - JavaScript
 
+## Components Used
+[Font Awesome: pencil-square-o](http://fontawesome.io/icon/pencil-square-o/)
+[Font Awesome: trash](http://fontawesome.io/icon/trash/)
+
 ## Browser Support 
 - Chrome
 - Firefox
