@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/todo.css">
+	<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+
+<div id="todo">
+	<div id="top">
+		<h1>To-Do List</h1>
+		<!-- Add todo -->
+		<div>
+			<input id="text" type="text" placeholder="Add Todo">
+		</div>
+		<!-- validation check -->
+		<div id="check"></div>
+	</div>
+	<!-- todo List -->
+	<div id="result">
+		<ul id="list">
+			<li><span class="task" contenteditable="false" onclick="toggleFinish(this)">Meeting @ 1:20PM</span>
+			<span class="remove" onclick="deleteTodo(this)"><i class="fa fa-trash"></i></span>
+			<span class="edit" onclick="editTodo(this)"><i class="fa fa-pencil-square-o"></i></span></li>
+			<li><span class="task" contenteditable="false" onclick="toggleFinish(this)">Book flight to Seattle</span>
+			<span class="remove" onclick="deleteTodo(this)"><i class="fa fa-trash"></i></span>
+			<span class="edit" onclick="editTodo(this)"><i class="fa fa-pencil-square-o"></i></span></li>
+			<li><span class="task" contenteditable="false" onclick="toggleFinish(this)">Get shipment status (order no. 647N98035B)</span>
+			<span class="remove" onclick="deleteTodo(this)"><i class="fa fa-trash"></i></span>
+			<span class="edit" onclick="editTodo(this)"><i class="fa fa-pencil-square-o"></i></span></li>
+			<li><span class="task" contenteditable="false" onclick="toggleFinish(this)">Finish presentation outline</span>
+			<span class="remove" onclick="deleteTodo(this)"><i class="fa fa-trash"></i></span>
+			<span class="edit" onclick="editTodo(this)"><i class="fa fa-pencil-square-o"></i></span></li>
+		</ul>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="resources/js/todo.js"></script>
+</body>
+</html>
