@@ -5,6 +5,7 @@ Simple todo list that allows you to add, edit, or delete a task.
 ![Enter Info](https://github.com/matthewmck/Todo-List/blob/master/Screenshot/Capture.JPG)
 
 ## Demo
+[JSFiddle](https://jsfiddle.net/mattmck/0dd1cnth/)
 
 ## Technologies
 - HTML5
