@@ -18,4 +18,4 @@ Simple todo list that allows you to add, edit, or delete a task.
 - Edge
 
 ## License
-[MIT](https://github.com/matthewmck/Amortization-Calculator/blob/master/LICENSE) © [Matthew McKee](https://www.linkedin.com/in/matthew-mckee-082b4385/)
+[MIT](https://github.com/matthewmck/Todo-List/blob/master/LICENSE) © [Matthew McKee](https://www.linkedin.com/in/matthew-mckee-082b4385/)
