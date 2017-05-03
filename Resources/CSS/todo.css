@@ -1,0 +1,95 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url('bg.jpg');
+	background-color: #D0D3D4;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+#todo {
+	background: white;
+	border: none;
+	border-radius: 5px;
+	margin: 15% auto 0 auto;
+	width: 600px;	
+}
+
+#top {
+	background: linear-gradient(to right, #1fc8db, #2cb5e8);
+	border-radius: 5px 5px 0 0;
+	height: 125px;
+}
+
+h1 {
+	color: white;
+	margin: 0 0 10px 0;
+	padding-top: 10px;
+	text-align: center;
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.4),
+                 0px 2px 13px rgba(0,0,0,0.1),
+                 0px 6px 23px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#text {
+	border: 1px solid white;
+	border-radius: 2px;
+	color: #116d9b;
+	display: block;
+	font-size: 1.1em;
+	height: 30px;
+	margin: auto;
+	padding-left: 5px;
+	width: 550px;
+}
+
+#check {
+	color: #9e1212;
+	font-size: 1.1em;
+	margin-top: 5px;
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	cursor: pointer;
+	list-style: none;
+}
+
+li:nth-child(2n) {background: #f1f1f1;}
+
+span {
+	display: inline-block;
+	padding: 10px;
+}
+
+.remove, .edit {float: right;}
+
+.edit:hover {
+	background: #1fc8db;
+	color: white;
+}
+
+.remove:hover {
+	background-color: #f76565;
+	color: white;
+}
+
+.task {width: 510px;}
+
+.task:focus {cursor: text;}
+
+.finished, .finished * {
+	color: gray;
+	text-decoration: line-through;
+}
