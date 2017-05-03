@@ -16,6 +16,7 @@ Simple todo list that allows you to add, edit, or delete a task.
 - [Photo - Tikkho Maciel](https://unsplash.com/@tikkho?photo=zQgsdQvj1IM)
 - [Font Awesome: pencil-square-o](http://fontawesome.io/icon/pencil-square-o/)
 - [Font Awesome: trash](http://fontawesome.io/icon/trash/)
+- [Google Fonts: Roboto](https://fonts.google.com/specimen/Roboto)
 
 ## Browser Support 
 - Chrome
